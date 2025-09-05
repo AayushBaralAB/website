@@ -1,0 +1,180 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Aayush Baral — Professional Portfolio</title>
+  <meta name="description" content="Professional portfolio of Aayush Baral — Digital Marketing Manager and Social Media Manager." />
+  <meta name="author" content="Aayush Baral" />
+
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'%3E%3Crect width='100' height='100' rx='20' fill='%233b82f6'/%3E%3Ctext x='50' y='58' font-size='46' text-anchor='middle' fill='white' font-family='Arial'%3EAB%3C/text%3E%3C/svg%3E">
+
+  <style>
+    :root{
+      --brand: #1e3a8a;
+      --muted:#6b7280;
+      --bg:#f8fafc;
+      --card:#ffffff;
+      --glass: rgba(255,255,255,0.6);
+      --radius:14px;
+      --max-width:1100px;
+    }
+    *{box-sizing:border-box}
+    html,body{height:100%}
+    body{
+      margin:0;
+      font-family:Inter,ui-sans-serif,system-ui,-apple-system,"Segoe UI",Roboto,"Helvetica Neue",Arial;
+      background: linear-gradient(180deg,var(--bg),#ffffff);
+      color:#0f172a;
+      line-height:1.5;
+      padding:32px 16px;
+      display:flex;justify-content:center;
+    }
+    .container{width:100%;max-width:var(--max-width);}
+    header{display:flex;align-items:center;justify-content:space-between;padding:12px 16px;margin-bottom:26px;}
+    .brand{display:flex;gap:12px;align-items:center;text-decoration:none;color:inherit;}
+    .logo{width:48px;height:48px;border-radius:12px;background:var(--brand);display:grid;place-items:center;color:white;font-weight:700}
+    nav{display:flex;gap:14px;align-items:center}
+    nav a{color:var(--muted);text-decoration:none;padding:8px 10px;border-radius:8px}
+    nav a:hover{background:rgba(30,58,138,0.08);color:var(--brand)}
+    .cta{background:var(--brand);color:white;padding:8px 12px;border-radius:10px;text-decoration:none}
+
+    .hero{display:grid;grid-template-columns:1fr 380px;gap:28px;align-items:center;margin-bottom:32px;}
+    .hero-card{background:var(--card);border-radius:var(--radius);padding:28px;box-shadow:0 6px 24px rgba(16,24,40,0.06)}
+    .headline{font-size:28px;font-weight:700;margin:0 0 8px}
+    .sub{color:var(--muted);margin-bottom:18px}
+    .roles{display:flex;gap:8px;flex-wrap:wrap}
+    .pill{background:rgba(99,102,241,0.08);color:var(--brand);padding:6px 10px;border-radius:999px;font-weight:600}
+    .profile{display:flex;flex-direction:column;gap:12px;align-items:center;text-align:center;padding:18px;background:linear-gradient(180deg,rgba(59,130,246,0.06),transparent);border-radius:12px}
+    .avatar{width:140px;height:140px;border-radius:18px;object-fit:cover;border:6px solid rgba(255,255,255,0.7);box-shadow:0 8px 30px rgba(30,58,138,0.12)}
+    .socials{display:flex;gap:10px}
+    .socials a{padding:8px;border-radius:8px;background:rgba(15,23,42,0.04);text-decoration:none}
+
+    section{margin-bottom:28px}
+    .grid-2{display:grid;grid-template-columns:1fr 1fr;gap:18px}
+    .card{background:var(--card);padding:18px;border-radius:12px;box-shadow:0 6px 18px rgba(16,24,40,0.04)}
+
+    .skills{display:flex;gap:8px;flex-wrap:wrap}
+    .skill{padding:8px 10px;border-radius:10px;background:rgba(15,23,42,0.04)}
+
+    table{width:100%;border-collapse:collapse}
+    td,th{padding:8px;border-bottom:1px solid #f1f5f9;text-align:left}
+    th{color:var(--muted);font-weight:600}
+
+    form{display:grid;gap:12px}
+    input,textarea,button,select{font:inherit;padding:10px;border-radius:8px;border:1px solid #e6eef8}
+    input:focus,textarea:focus,select:focus{outline:none;box-shadow:0 0 0 4px rgba(59,130,246,0.08);border-color:var(--brand)}
+    button{background:var(--brand);color:white;border:none;padding:12px 14px;cursor:pointer}
+
+    footer{padding:18px;text-align:center;color:var(--muted)}
+
+    @media (max-width:880px){.hero{grid-template-columns:1fr;} .profile{order:-1} nav{display:none} header{gap:12px}}
+  </style>
+</head>
+<body>
+  <div class="container">
+    <header>
+      <a class="brand" href="#">
+        <div class="logo" aria-hidden>AB</div>
+        <div>
+          <div style="font-weight:700">Aayush Baral</div>
+          <div style="font-size:12px;color:var(--muted)">Digital Marketing Manager • Social Media Manager</div>
+        </div>
+      </a>
+
+      <nav aria-label="Main navigation">
+        <a href="#about">About</a>
+        <a href="#skills">Skills</a>
+        <a href="#resume">Resume</a>
+        <a href="#contact" class="cta">Contact</a>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <div class="hero-card">
+          <p style="margin:0;color:var(--muted);font-weight:600">Hello, I’m</p>
+          <h1 class="headline">Aayush Baral — Digital Marketing & Social Media Expert</h1>
+          <p class="sub">I specialize in online marketing strategies, audience engagement, and website creation using Blogger and WordPress. Skilled in MS Word, Excel, PowerPoint, and MS Access. Seeking opportunities to contribute and grow in a dynamic organization.</p>
+
+          <div class="roles">
+            <span class="pill">Digital Marketing</span>
+            <span class="pill">Social Media</span>
+            <span class="pill">Web Development</span>
+            <span class="pill">Content Strategy</span>
+          </div>
+
+          <div style="margin-top:18px;color:var(--muted)">
+            <strong>Location:</strong> Birtamod, Jhapa — <strong>Available for:</strong> Remote / Contract
+          </div>
+        </div>
+
+        <aside class="profile">
+          <img class="avatar" src="https://lh3.googleusercontent.com/a/ACg8ocL0GF2vwpQpmz1YlI5Mw8dkF8ynv9ly92mTWJeyd4gaMIfizuWe=s360-c-no" alt="Aayush Baral photo">
+          <div style="font-weight:700">Aayush Baral</div>
+          <div style="color:var(--muted);font-size:14px">Digital Marketing Manager • Social Media Manager</div>
+          <div class="socials" aria-label="Social links">
+            <a href="https://www.linkedin.com/in/aayushbaraloffical/" title="LinkedIn" aria-label="LinkedIn">LinkedIn</a>
+            <a href="https://facebook.com/ayush.20.baral" title="Facebook" aria-label="Facebook">Facebook</a>
+            <a href="https://x.com/aayushbaralab" title="Twitter" aria-label="Twitter">X</a>
+          </div>
+          <div style="font-size:13px;color:var(--muted);margin-top:6px">Open to freelance and full-time opportunities</div>
+        </aside>
+      </section>
+
+      <section id="about" class="card">
+        <h3>About Me</h3>
+        <p>Hello, I'm <strong>Aayush Baral</strong>, an experienced Digital Marketing Manager and Social Media Manager with a strong understanding of online marketing strategies and audience engagement. I also have computer skills, including MS Word, Excel, and PowerPoint, MS Access, along with hands-on experience in creating websites using Blogger and WordPress. I am seeking an opportunity to contribute my skills and grow professionally in a dynamic and growth-focused organization.</p>
+      </section>
+
+      <section id="skills" class="card">
+        <h3>Skills</h3>
+        <div class="skills" style="margin-top:10px">
+          <span class="skill">Digital Marketing</span>
+          <span class="skill">Social Media Management</span>
+          <span class="skill">Content Strategy</span>
+          <span class="skill">Blogger</span>
+          <span class="skill">WordPress</span>
+          <span class="skill">MicroSoft Office Package</span>
+        </div>
+      </section>
+
+      <section id="resume">
+        <h3>Resume</h3>
+        <div class="card">
+          <table aria-label="Work experience table">
+            <thead>
+              <tr><th>Role</th><th>Company</th><th>Years</th></tr>
+            </thead>
+            <tbody>
+              <tr><td>Digital Marketing Manager</td><td>—</td><td>—</td></tr>
+              <tr><td>Social Media Manager</td><td>—</td><td>—</td></tr>
+            </tbody>
+          </table>
+        </div>
+      </section>
+
+      <section id="contact" class="card">
+        <h3>Contact</h3>
+        <p>If you’d like to work together or just say hello, send me a message.</p>
+        <form id="contactForm" onsubmit="return false;">
+          <input id="name" name="name" type="text" placeholder="Your name" required>
+          <input id="email" name="email" type="email" placeholder="Email" required>
+          <input id="subject" name="subject" type="text" placeholder="Subject" required>
+          <textarea id="message" name="message" rows="5" placeholder="Message" required></textarea>
+          <button id="sendBtn" type="submit">Send message</button>
+        </form>
+        <div style="margin-top:12px;color:var(--muted);font-size:13px">Or email me directly: <a href="mailto:hamroaayushab@gmail.com">hamroaayushab@gmail.com</a></div>
+      </section>
+
+      <footer>
+        © <span id="year"></span> Aayush Baral — Built with care • <a href="#" style="color:var(--muted)">Privacy</a>
+      </footer>
+    </main>
+  </div>
+
+  <script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+  </script>
+</body>
+</html>
