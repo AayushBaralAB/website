@@ -1,0 +1,163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Aayush | Software Developer</title>
+  <style>
+    /* Base Reset */
+    *, *::before, *::after {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    :root {
+      --primary-color: #007acc;
+      --text-color: #333;
+      --bg-color: #f9f9f9;
+      --card-bg: #fff;
+      --footer-bg: #eaeaea;
+      --accent-color: #005f99;
+    }
+
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      background-color: var(--bg-color);
+      color: var(--text-color);
+      line-height: 1.6;
+    }
+
+    header {
+      background-color: var(--primary-color);
+      color: white;
+      padding: 3rem 1rem;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 3rem;
+      font-weight: 600;
+    }
+
+    header p {
+      font-size: 1.2rem;
+      opacity: 0.9;
+    }
+
+    main {
+      max-width: 960px;
+      margin: 2rem auto;
+      padding: 0 1rem;
+    }
+
+    section {
+      background-color: var(--card-bg);
+      padding: 2rem;
+      margin-bottom: 2rem;
+      border-radius: 10px;
+      box-shadow: 0 4px 12px rgba(0, 0, 0, 0.05);
+      transition: transform 0.2s ease;
+    }
+
+    section:hover {
+      transform: translateY(-3px);
+    }
+
+    section h2 {
+      margin-bottom: 1rem;
+      color: var(--primary-color);
+      font-size: 1.5rem;
+      border-left: 4px solid var(--primary-color);
+      padding-left: 10px;
+    }
+
+    section p, section ul {
+      font-size: 1rem;
+      line-height: 1.8;
+    }
+
+    ul {
+      list-style: square inside;
+    }
+
+    a {
+      color: var(--accent-color);
+      text-decoration: none;
+    }
+
+    a:hover {
+      text-decoration: underline;
+    }
+
+    footer {
+      background-color: var(--footer-bg);
+      text-align: center;
+      padding: 1rem;
+      font-size: 0.9rem;
+      color: #555;
+    }
+
+    @media (max-width: 600px) {
+      header h1 {
+        font-size: 2.2rem;
+      }
+
+      section {
+        padding: 1.5rem;
+      }
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Aayush</h1>
+    <p>Software Developer | Clean Code Advocate | Lifelong Learner</p>
+  </header>
+
+  <main>
+    <section>
+      <h2>About Me</h2>
+      <p>
+        I'm Aayush, a dedicated software developer with a focus on writing clean, efficient, and maintainable code.
+        My goal is to build software that not only works — but lasts.
+        With experience in full-stack development, I turn ideas into real-world digital solutions.
+      </p>
+    </section>
+
+    <section>
+      <h2>Skills</h2>
+      <ul>
+        <li>JavaScript (ES6+), TypeScript</li>
+        <li>React, Node.js, Express</li>
+        <li>Python, Flask</li>
+        <li>HTML5, CSS3, Sass</li>
+        <li>REST APIs, PostgreSQL, MongoDB</li>
+        <li>Git & GitHub, Agile Development</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Projects</h2>
+      <ul>
+        <li><strong>DevTracker</strong> – A project management tool for developers, built with React and Node.js.</li>
+        <li><strong>QuickNote</strong> – Lightweight note-taking app with Markdown support.</li>
+        <li><strong>WeatherCLI</strong> – Command-line weather application using Python and OpenWeatherMap API.</li>
+      </ul>
+    </section>
+
+    <section>
+      <h2>Contact</h2>
+      <p>Email: <a href="mailto:aayush@example.com">aayush@example.com</a></p>
+      <p>LinkedIn: <a href="https://www.linkedin.com/in/aayush" target="_blank">linkedin.com/in/aayush</a></p>
+      <p>GitHub: <a href="https://github.com/aayush" target="_blank">github.com/aayush</a></p>
+    </section>
+  </main>
+
+  <footer>
+    &copy; 2025 Aayush. Made with passion for clean code and good design.
+  </footer>
+
+</body>
+</html>
